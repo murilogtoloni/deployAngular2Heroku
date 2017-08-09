@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static(__dirname + '/dist'));
 
 
-app.get('/teste', function(req, res){
+app.on('/teste', function(req, res){
    res.send('Meu teste funfo seus cuzão');
 });
 
