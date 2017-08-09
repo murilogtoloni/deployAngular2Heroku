@@ -5,8 +5,8 @@ const app = express();
 app.use(express.static(__dirname + '/dist'));
 
 
-app.get('/', function(req, res){
-   res.send('The id you specified is');
+app.get('/teste', function(req, res){
+   res.send('Meu teste funfo seus cuzão');
 });
 
 // Start the app by listening on the default

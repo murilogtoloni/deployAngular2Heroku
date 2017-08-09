@@ -18,7 +18,7 @@ export class AppComponent {
   }
 
   enviarGet() {
-    this.http.get('/').subscribe(data => {
+    this.http.get('/teste').subscribe(data => {
       // Read the result field from the JSON response.
       console.log(data);
     });
